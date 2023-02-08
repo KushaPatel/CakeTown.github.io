@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Birthday</title>
+        	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <!--Bootstrap-->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+            <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!--Font-->
+            <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital@1&family=Ubuntu:wght@300&display=swap" rel="stylesheet">-->
+
+            <!--CSS-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+            <link rel="stylesheet" href="style.css">
+            <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+            <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">-->
+            <!--<link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>-->
+
+            <!--JAVA-->
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+            <!--<link rel="stylesheet" href="edit.js">-->
+            <!--JAVASCRIPT VESRION4-->
+            <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+
+            <!--fontawesome-->
+            <!--<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>-->
+
+    </head>
+    <body class="mainback">
+        <!--1st Nav Bar-->
+	    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: blueviolet;"> <!--fixed-top fixnav" style="z-index:1000;-->
+            <div class="container-fluid">
+                <label class="navbar-brand"><img src="" alt="logo" width="100px" height="70px"></label>
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder="Type to Search">
+                    <a class="search-btn" href="#"><i class="fa fa-search"></i>
+                    </a>
+               </div>
+                <!--<form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" ><i class="fa fa-search fa-colour"></i></button>
+                </form>-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggleDemo02">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <input type="checkbox" id="show">
+                            <a class="nav-link" href="">
+                                <label for="show" class="show-btn">
+                                    <i class='fas fa-user-circle'></i>
+                                </label>
+                            </a>
+                                <div class="container">
+                                    <label for="show" class="close-btn fa fa-times" title="close"></label>
+                                    <div class="text">
+                                        Login Form
+                                    </div>
+                                    <form action="#">
+                                        <div class="data">
+                                            <label>Email or Phone</label>
+                                            <input type="text" required>
+                                        </div>
+                                        <div class="data">
+                                            <label>Password</label>
+                                            <input type="password" required>
+                                        </div>
+                                        <div class="forgot-pass">
+                                            <a href="#">Forgot Password?</a>
+                                        </div>
+                                        <div class="btn">
+                                            <div class="inner"></div>
+                                            <button type="submit">login</button>
+                                        </div>
+                                        <div class="signup-link">
+                                            Not a member? 
+                                            <a href="#">Signup now</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            <!--<a class="nav-link" href="">Login</a>-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="fa fa-shopping-cart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fa fa-home"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#AboutUs">About Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+	    </nav>
+        <!--2nd Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggleDemo02">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="" target="_self" style="color: black;" href="birthday.html">
+                                BIRTHDAY
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" style="color: black;" href="#">
+                                ANNIVERSARY
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" style="color: black;" href="#">
+                                OCCATIONS
+                            </a>
+                        </li>
+                        <li>
+                            <a class="" style="color: black;" href="#">
+                                VALENTINE SPECIAL
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+	    </nav>
+        <br><br>
+
+        <!--Placeholders-->
+        <div class="card-description" >
+            <a class="card1" href="">
+                <div class="card1-image">
+                    <div class="forimage" style="width: 100%; height: 100%;">
+                        <img src="chocolate.jpg" atl="Chocolate Cake" width="100%" height="100%" data-sizes="auto" loading="eager" style="display: inline; border-radius: 5px;">
+                    </div>
+                </div>
+                <span class="card1-title">Chocolate Cake</span>
+                <div class="row">
+                    <div class="column" >
+                        <span class="card-text">Prize: 250&#8377;</span>
+                    </div>
+                    <div class="column" >
+                        <span class="card-text">Rating: 4.9&#9733;</span>
+                    </div>
+                </div>
+                <br>
+                <div class="overlay" style="color: black;">
+                    <div class="line">
+                        <h6 class="title"><center>More Info</center></h6>
+                    </div>
+                    <div class="content">
+                        <p>Cake prize is 250&#8377;.<br>Available in 500gm, 1Kg, 2kg<br>Available Flavour : Chocolate, Vanila, Strawberry</p>
+                        Add to cart
+                    </div>
+                </div>
+            </a>
+            <a class="card1" href="">
+                <div class="card1-image">
+                    <div class="forimage" style="width: 100%; height: 100%;">
+                        <img src="rosecake.jpg" atl="Chocolate Cake" width="100%" height="225px" data-sizes="auto" loading="eager" style="display: inline; border-radius: 5px;">
+                    </div>
+                </div>
+                <span class="card1-title">Rose Cake</span>
+                <div class="row">
+                    <div class="column" >
+                        <span class="card-text">Prize: 300&#8377;</span>
+                    </div>
+                    <div class="column" >
+                        <span class="card-text">Rating: 4.8&#9733;</span>
+                    </div>
+                </div>
+                <br>
+                <div class="overlay" style="color: black;">
+                    <div class="line">
+                        <h6 class="title"><center>More Info</center></h6>
+                    </div>
+                    <div class="content">
+                        <p>Cake prize is 300&#8377;.<br>Available in 500gm, 1Kg, 2kg<br>Available Flavour : Chocolate, Vanila, Strawberry</p>
+                        Add to cart
+                    </div>
+                </div>
+            </a>
+            <a class="card1" href="">
+                <div class="card1-image">
+                    <div class="forimage" style="width: 100%; height: 100%;">
+                        <img src="vanilacake.jpg" atl="Chocolate Cake" width="100%" height="100%" data-sizes="auto" loading="eager" style="display: inline; border-radius: 5px;">
+                    </div>
+                </div>
+                <span class="card1-title">Vanila Cake</span>
+                <div class="row">
+                    <div class="column" >
+                        <span class="card-text">Prize: 200&#8377;</span>
+                    </div>
+                    <div class="column" >
+                        <span class="card-text">Rating: 4.6&#9733;</span>
+                    </div>
+                </div>
+                <br>
+                <div class="overlay" style="color: black;">
+                    <div class="line">
+                        <h6 class="title"><center>More Info</center></h6>
+                    </div>
+                    <div class="content">
+                        <p>Cake prize is 200&#8377;.<br>Available in 500gm, 1Kg, 2kg<br>Available Flavour : Chocolate, Vanila, Strawberry</p>
+                        Add to cart
+                    </div>
+                </div>
+            </a>
+            <a class="card1" href="">
+                <div class="card1-image">
+                    <div class="forimage" style="width: 100%; height: 100%;">
+                        <img src="rosecake1.jpg" atl="Chocolate Cake" width="100%" height="100%" data-sizes="auto" loading="eager" style="display: inline; border-radius: 5px;">
+                    </div>
+                </div>
+                <span class="card1-title">Rose Cake</span>
+                <div class="row">
+                    <div class="column" >
+                        <span class="card-text">Prize: 325&#8377;</span>
+                    </div>
+                    <div class="column" >
+                        <span class="card-text">Rating: 4.9&#9733;</span>
+                    </div>
+                </div>
+                <br>
+                <div class="overlay" style="color: black;">
+                    <div class="line">
+                        <h6 class="title"><center>More Info</center></h6>
+                    </div>
+                    <div class="content">
+                        <p>Cake prize is 325&#8377;.<br>Available in 500gm, 1Kg, 2kg<br>Available Flavour : Chocolate, Vanila, Strawberry</p>
+                        Add to cart
+                    </div>
+                </div>
+            </a>
+            <a class="card1" href="">
+                <div class="card1-image">
+                    <div class="forimage" style="width: 100%; height: 100%;">
+                        <img src="chocolatecake.jpg" atl="Chocolate Cake" width="100%" height="100%" data-sizes="auto" loading="eager" style="display: inline; border-radius: 5px;">
+                    </div>
+                </div>
+                <span class="card1-title">Chocolate Cake</span>
+                <div class="row">
+                    <div class="column" >
+                        <span class="card-text">Prize: 400&#8377;</span>
+                    </div>
+                    <div class="column" >
+                        <span class="card-text">Rating: 4.7&#9733;</span>
+                    </div>
+                </div>
+                <br>
+                <div class="overlay" style="color: black;">
+                    <div class="line">
+                        <h6 class="title"><center>More Info</center></h6>
+                    </div>
+                    <div class="content">
+                        <p>Cake prize is 400&#8377;.<br>Available in 500gm, 1Kg, 2kg<br>Available Flavour : Chocolate, Vanila, Strawberry</p>
+                        Add to cart
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!--About Us-->
+        <br><br>
+        <section id="AboutUs">
+            <h2><b>ABOUT US</b></h2>
+            <img src="" alt="Logo"></img><br>
+            Name of Application
+    
+            <p>
+                <div>
+                    "Name of application" is provide you best and Fresh cake service. This is online Cake shop all over Vadodara. "link of side" is a link of our online shop. <br>               
+                    <b>CONTECT NO.</b>: 91-9999999999<br>
+                    <b>E-MAIL</b>: <br>
+                    <b>OFFICIAL WEBSITE</b>: 
+                </div>
+            </p>
+        </section>
+        <script src="edit.js"></script>
+    </body>
+</html> 
